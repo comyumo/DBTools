@@ -7,9 +7,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Table {
-
+public class TableData {
 	private String tableID;
 	private String tableName;
-	private List<Column> columns;
+	private List<Column> cols;
+	private List<List<Column>> datas;
 }

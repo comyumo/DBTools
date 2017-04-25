@@ -14,4 +14,5 @@ public class Column {
 	private String defVal;
 	private boolean isAuto;
 	private String remark;
+	private String val;
 }
